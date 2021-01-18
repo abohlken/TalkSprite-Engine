@@ -1,0 +1,7 @@
+var config = {
+	nonSpeakingFilePath: 'sprite_images/pepsi_pfp_large.png',
+	speakingFilePath: 'sprite_images/ICONmusicwuffinJustThePaw.jpg',
+	gateLevel: 0.05,
+	imageWidth: 400,
+	imageHeight: 400
+}

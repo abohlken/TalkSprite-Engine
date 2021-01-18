@@ -1,0 +1,23 @@
+.avatar {
+  border-radius:0% !important;
+}
+
+.speaking {
+  border-color:rgba(0,0,0,0) !important;
+  position:relative;
+  animation-name: speak-now;
+  animation-duration: 1s;
+  animation-fill-mode:forwards;
+  filter: brightness(100%);
+}
+
+@keyframes speak-now {
+  0% { bottom:0px;  }
+  15% { bottom:10px;  }
+  30% { bottom:0px;  }
+}
+
+li.voice-state{ position: static; }
+div.user{ position: absolute; left:40%; bottom:5%; }
+
+body { background-color: rgba(0, 255, 0, 1); margin: 0px auto; overflow: hidden; }
